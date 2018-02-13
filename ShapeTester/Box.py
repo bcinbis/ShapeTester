@@ -9,11 +9,11 @@ class Cube(object):
 
     def volume(self):
         volume = self.w * self.l * self.h
-        print("Your volume is: " + volume)
+        print("Your volume is: " + str(volume))
 
     def SA(self):
         SA = 2*self.w*self.l + 2*self.l*self.h + 2*self.w*self.h
-        print("Your surface area is: " + SA)
+        print("Your surface area is: " + str(SA))
     
     
           

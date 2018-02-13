@@ -7,8 +7,8 @@ class Pokeball:
 
     def volume(self):
         volume = (4/3) * 3.1415 * self.r**3
-        print("Your volume is: " + volume)
+        print("Your volume is: " + str(volume))
 
     def SA(self):
         SA = 4 * 3.1415 * self.r**2
-        print("Your surface area is: " + SA)
+        print("Your surface area is: " + str(SA))
